@@ -1,11 +1,3 @@
-<style>
-  body{
-    font-size:12px;
-    line-height:1.5em;
-    text-indent:35px;
-  }
-</style>
-
 ## typescript入门
 
 ##### TypeScript 的安装和编译
