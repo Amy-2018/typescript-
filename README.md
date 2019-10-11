@@ -71,6 +71,16 @@ protected 在类里面子类里面可以访问，在类外部不能访问
 
 public > protected > private
 
+#####
+
+静态属性
+
+静态方法
+
+多态
+
+抽象类
+
 
 
 
