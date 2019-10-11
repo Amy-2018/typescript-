@@ -63,12 +63,11 @@
 
 ##### 修饰符
 
-public
-默认
-private
-在类里面可以访问，在子类、类外部不能访问
-protected
-在类里面子类里面可以访问，在类外部不能访问
+public 默认
+
+private 在类里面可以访问，在子类、类外部不能访问
+
+protected 在类里面子类里面可以访问，在类外部不能访问
 
 public > protected > private
 
