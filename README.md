@@ -108,8 +108,10 @@
      
      . 顺序： 只读参数放第一位，必选参数第二位，可选参数次之，不确定参数放最后 
       
-      <code>
+      <code> 
+ 
        interface iProps {
+ 
          readonly x: number;
  
          readonly y: number;
@@ -122,7 +124,8 @@
          
          [propName: string]: any;
        }
-      </code>  
+       
+      </code> 
 
 ### 函数
 
