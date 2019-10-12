@@ -110,7 +110,6 @@
       
       <code>
        interface iProps {
- 
          readonly x: number;
  
          readonly y: number;
@@ -122,7 +121,6 @@
          height?: number;
          
          [propName: string]: any;
-         
        }
       </code>  
 
