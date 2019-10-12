@@ -58,48 +58,48 @@
    
    2.初学前期
    
-8. null 和 undefined
+8. null 和 undefined 
    当你指定了--strictNullChecks标记，null和undefined只能赋值给void和它们各自
-9. void类型
+9. void类型 
    一般用来标记函数没有返回值
    这时候就不能写return了
-10. never类型
+10. never类型 
     . throw new Error(message)
     . return error("Something failed")
     . while (true) {} // 存在无法达到的终点
-11. 联合类型 | 
+11. 联合类型 |  
      联合类型也是将多个类型合并为一个类型, 表示"或"的关系,用|连接多个类型:
-12. 交叉类型 & 
+12. 交叉类型 &  
     交叉类型是将多个类型合并为一个类型, 表示"并且"的关系,用&连接多个类型, 常用于对象合并:
 13. 类型断言 手动指定一个值的类型  
     语法：<类型>值 或 值 as 类型
     注： 类型断言不是类型转换，断言成一个联合类型中不存在的类型是不允许的
     
- 14. 类型推论
+ 14. 类型推论 
      如果没有明确的指定类型，那么 TypeScript 会依照类型推论（Type Inference）的规则推断出一个类型。
  
- 15. 类型别名 type
+ 15. 类型别名 type 
  
      使用 type 创建类型别名,类型别名常用于联合类型
   
- 16. 对象类型 object
+ 16. 对象类型 object 
  
      一般不用，他标注不具体，一般用接口
      
  17. 接口 interface
-     . 默认：如果任何一个字段没有被赋值或者字段对应的数据类型不对
-     . 非必填(?)
-     . 顺序： 只读参数放第一位，必选参数第二位，可选参数次之，不确定参数放最后
-       eg： 
+     . 默认：如果任何一个字段没有被赋值或者字段对应的数据类型不对 
+     . 非必填(?) 
+     . 顺序： 只读参数放第一位，必选参数第二位，可选参数次之，不确定参数放最后 
+      
       <code>
-      interface iProps {
-        readonly x: number;
-        readonly y: number;
-        name: string;
-        age: number;
-        height?: number;
-        [propName: string]: any;
-      }
+       interface iProps {
+         readonly x: number;
+         readonly y: number;
+         name: string;
+         age: number;
+         height?: number;
+         [propName: string]: any;
+       }
       </code>  
 
 ### 函数
